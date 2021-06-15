@@ -1,0 +1,30 @@
+/* Adding custom styling */
+
+.title {
+  border-bottom: 2px solid #daa520;
+  text-align: center;
+}
+
+.boxTitle {
+  text-align: center;
+}
+
+.form {
+  display: grid;
+}
+
+.addButton {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+.viewButton {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .viewButton {
+    width: 90%;
+  }
+}
